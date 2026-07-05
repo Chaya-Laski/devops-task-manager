@@ -27,4 +27,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest -q
+          python --version
+          pwd
+          ls -R
+          pytest -vv
